@@ -204,7 +204,7 @@
         <h3 style="margin:0 0 8px;font-size:15px">Comments</h3>
         ${loggedIn()
           ? `<form class="comment-form" id="comment-form">
-               <textarea name="body" maxlength="5000" placeholder="Write a comment (markdown works)" required></textarea>
+               <textarea name="body" maxlength="5000" placeholder="Write a comment" required></textarea>
                <div class="form-error" id="comment-err"></div>
                <button class="btn primary" type="submit">Comment</button>
              </form>`
@@ -241,7 +241,7 @@
             <label class="btn" style="margin:0;color:var(--text);font-size:13px;padding:4px 12px">Add image
               <input type="file" id="image-input" accept="image/png,image/jpeg,image/gif,image/webp" hidden></label>
           </div>
-          <textarea id="body" name="body" maxlength="40000" placeholder="Markdown is supported: **bold**, _italic_, # headings, \`code\`, lists, links…" required></textarea>
+          <textarea id="body" name="body" maxlength="40000" placeholder="" required></textarea>
           <div class="md preview-box" id="preview" hidden></div>
           <div class="hint">Images: PNG, JPEG, GIF or WebP, up to 5 MB.</div>
         </div>
