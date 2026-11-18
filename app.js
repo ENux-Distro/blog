@@ -230,7 +230,7 @@
     const main = render(`<h1 class="page-title">New post</h1>
       <form class="card-form" id="post-form" novalidate>
         <div class="field"><label for="subject">Subject <span class="counter" id="subject-count">0/30</span></label>
-          <input type="text" id="subject" name="subject" maxlength="30" placeholder="e.g. Programming, Philosophy, Struggles…" required></div>
+          <input type="text" id="subject" name="subject" maxlength="30" placeholder="" required></div>
         <div class="field"><label for="title">Title</label>
           <input type="text" id="title" name="title" maxlength="300" required></div>
         <div class="field"><label>Body</label>
