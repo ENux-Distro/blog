@@ -28,6 +28,17 @@ The users will be able to upload images to the body, and the blog will be able t
 You can scroll on posts, like/dislike them (don't have a popping button saying you liked/disliked this post, would you like to comment on it), comment and share
 to other people. Basically, Reddit and X vibes
 
+**NOTE**: The users can still scroll posts, but they can't like/dislike or comment, they need to create an account. 
+
+## The Me/Admin Side
+
+The user experience will the same as a normal one, just on the top left corner, it'll say Admin in light grey and that's it. 
+The powers I have on the other hand go like this:
+
+- Having a "Admin" text right next to my post
+- Being able to delete posts of other people
+- Being able to delete users
+
 ## Users Hell
 
 I think when creating the users, we should store everything in a simple sql database. But the problem is, I'll push the code to github and create a github pages website
